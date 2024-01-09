@@ -1,5 +1,5 @@
 //Paketet mysql är installerat med "npm install mysql"
-var mysql = require("mysql")
+var mysql = require("mysql2")
 
 // Här skapas ett databaskopplings-objekt med inställningar för att ansluta till servern och databasen.
 var connection = mysql.createConnection({
